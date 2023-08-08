@@ -21,7 +21,7 @@ ArrayList<Product> orders = new ArrayList();
 
         RestTemplate restTemplate = new RestTemplate();
 
-        String url = "http://localhost:9297/addProduct";
+        String url = "http://data.services.com:4/addProduct";
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
